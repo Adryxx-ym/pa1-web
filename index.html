@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desarrollo Web</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="contenedor">
+    <!-- Cabecera organizada con Flexbox -->
+    <header class="cabecera">
+      <img class="logo" src="imagenes/isil.svg" alt="ISIL">
+      <h1>Desarrollo Web</h1>
+    </header>
+    <hr>
+   
+    <p class="autor">Desarrollado por <strong>yamil contreras</strong></p>
+    <main>
+      <section class="introduccion" aria-labelledby="presentacion">
+        <h2 id="presentacion">HTML, CSS y JavaScript</h2>
+        <p>Son los tres pilares fundamentales del desarrollo web que trabajan juntos para crear páginas web dinámicas e interactivas.</p>
+        <p><strong>HTML</strong> se encarga de la estructura y el contenido, <strong>CSS</strong> del diseño y la presentación, y <strong>JavaScript</strong> de la interactividad y la funcionalidad.</p>
+      </section>
+      <section aria-labelledby="definiciones">
+        <h2 id="definiciones" class="subtitulo">Definiciones</h2>
+        <div class="fila definiciones">
+          <article class="tarjeta html">
+            <h3>HTML (HyperText Markup Language)</h3>
+            <p>Es el lenguaje de marcado que <mark>define la estructura y el contenido</mark> de una página web. Utiliza etiquetas para identificar diferentes elementos, como párrafos, encabezados, imágenes, enlaces y listas.</p>
+            <img class="escudo" src="imagenes/html.svg" alt="Escudo de HTML5">
+          </article>
+          <article class="tarjeta css">
+            <h3>CSS (Cascading Style Sheets)</h3>
+            <p>Es un lenguaje de estilos que se utiliza para controlar la <mark>presentación</mark> de una página web. Permite definir aspectos como los colores, las fuentes, los tamaños, los márgenes y la distribución del contenido.</p>
+            <img class="escudo" src="imagenes/css.svg" alt="Escudo de CSS3">
+          </article>
+          <article class="tarjeta js">
+            <h3>JavaScript (Programming Language)</h3>
+            <p>Es un lenguaje de programación que permite agregar <mark>funcionalidad interactiva</mark> a una página web. Permite manipular elementos HTML, responder a eventos del usuario y actualizar datos.</p>
+            <img class="escudo" src="imagenes/js.svg" alt="Escudo ilustrativo de JavaScript">
+          </article>
+        </div>
+      </section>
+      <section aria-labelledby="casa">
+        <h2 id="casa" class="subtitulo">Analogía de la web y una casa</h2>
+        <div class="fila analogias">
+          <article class="tarjeta html">
+            <h3><img class="icono" src="imagenes/estructura.svg" alt="">HTML</h3>
+            <p>Estructura de la casa.</p>
+            <p>Es como los cimientos, las paredes, el techo y la distribución de las habitaciones.</p>
+            <p>HTML define la estructura básica de una página web: qué elementos hay y cómo se organizan. Establece dónde van los títulos, los párrafos, las imágenes y los enlaces.</p>
+          </article>
+          <article class="tarjeta css">
+            <h3><img class="icono" src="imagenes/estilo.svg" alt="">CSS</h3>
+            <p>Decoración y estilo de la casa.</p>
+            <p>Es la pintura de las paredes, el tipo de piso, los muebles, las cortinas y el diseño de la cocina.</p>
+            <p>CSS controla cómo se ve la página: colores, fuentes, márgenes, alineaciones y otros detalles visuales.</p>
+          </article>
+          <article class="tarjeta js">
+            <h3><img class="icono" src="imagenes/energia.svg" alt="">JavaScript</h3>
+            <p>Los sistemas eléctricos y electrónicos de la casa.</p>
+            <p>Es como los interruptores que encienden luces, las puertas automáticas y el termostato inteligente.</p>
+            <p>JavaScript añade funcionalidad e interactividad: hace que pasen cosas cuando el usuario realiza una acción.</p>
+          </article>
+        </div>
+        <figure class="ilustracion">
+          <img src="imagenes/analogia.svg" alt="HTML representa la estructura de una casa, CSS su decoración y JavaScript su funcionalidad.">
+        </figure>
+      </section>
+    </main>
+    <hr>
+    <footer>
+      <h2 class="subtitulo">Resumen</h2>
+      <p class="resumen">Los tres lenguajes son esenciales para el desarrollo web y cada uno cumple un papel crucial en la creación de páginas web modernas y funcionales.</p>
+    </footer>
+  </div>
+</body>
+</html>
